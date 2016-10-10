@@ -8,4 +8,5 @@ $db = $com -> initDb(); 		//初始化数据库连接
 
 
 $smarty->assign('title', '后台首页');
+$smarty->assign('username', $_SESSION['username']);
 $smarty->display('index.tpl');
