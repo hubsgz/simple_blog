@@ -7,7 +7,7 @@ $db = $com -> initDb(); 		//初始化数据库连接
 //获取文章id
 $id = $com->getIntParam('id'); 
 
-//查询文章总数
+//查询文章详细信息
 $sql = "select * from article where id=$id ";
 $detail = $db->getRow($sql);
 

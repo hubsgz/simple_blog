@@ -39,4 +39,11 @@ class AdminCommon extends Common
 		return false;
 	}
 	
+	public function showTips($msg, $tourl='')
+	{
+		$this->smarty->assign('tip_msg', $msg);
+		$this->smarty->assign('tourl', $tourl);
+		$this->smarty->display('tip.tpl');
+		exit;
+	}
 }

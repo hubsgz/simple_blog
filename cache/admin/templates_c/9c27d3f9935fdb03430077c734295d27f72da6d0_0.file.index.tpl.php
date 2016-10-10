@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2016-10-10 07:39:04
+/* Smarty version 3.1.30, created on 2016-10-10 14:53:33
   from "/Volumes/macdata/data/www/simple_blog/admin/tpl/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_57fb4598e9cd36_63822920',
+  'unifunc' => 'content_57fbab6d4c3578_78009261',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c27d3f9935fdb03430077c734295d27f72da6d0' => 
     array (
       0 => '/Volumes/macdata/data/www/simple_blog/admin/tpl/index.tpl',
-      1 => 1476085143,
+      1 => 1476111209,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_57fb4598e9cd36_63822920 (Smarty_Internal_Template $_smarty_tpl) {
+function content_57fbab6d4c3578_78009261 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <html>
 <head>
@@ -267,8 +267,8 @@ float:left;
             </div>
             <div class="div3">
                 <ul>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?act=edit_aboutus');">关于我们</a></li>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?act=edit_contactus');">联系我们</a></li>
+                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=aboutus');">关于我们</a></li>
+                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=contactus');">联系我们</a></li>
                     
                 </ul>
             </div>

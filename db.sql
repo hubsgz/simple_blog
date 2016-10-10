@@ -13,7 +13,7 @@ inset into user values (1, 'admin', '7fef6171469e80d32c0559f88b377245');
 CREATE TABLE `article` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `category` tinyint(1) NOT NULL COMMENT '分类',
-  `img` varchar(55) NOT NULL COMMENT '图片',
+  `pic` varchar(55) NOT NULL COMMENT '图片',
   `title` varchar(55) NOT NULL COMMENT '标题',
   `content` text NOT NULL COMMENT '内容',
   `addtime` int(11) unsigned NOT NULL COMMENT '添加时间',

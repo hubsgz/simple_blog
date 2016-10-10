@@ -23,7 +23,7 @@
 
 <script>
 setTimeout(function(){
-	{if isset($tourl)}
+	{if isset($tourl) and !empty($tourl)}
 	   location.href="{$tourl}";
 	{else}
 	   history.go(-1);

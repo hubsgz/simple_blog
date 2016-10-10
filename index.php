@@ -16,7 +16,7 @@ if ($category>0) {
 }
 
 //每页显示数量
-$pagesize = 1;
+$pagesize = 5;
 
 //查询文章总数
 $sql = "select count(*) as total from article $where";
@@ -25,7 +25,7 @@ $total = $row['total'];
 
 //查询文章列表
 $offset = ($page-1) * $pagesize;
-$sql = "select * from article $where limit $offset, $pagesize";
+$sql = "select * from article $where order by addtime desc limit $offset, $pagesize";
 $list = $db->getAll($sql);
 
 //总页数

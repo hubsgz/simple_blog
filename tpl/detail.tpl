@@ -5,7 +5,7 @@
       <div class="mainbar">
         <div class="article">
           <h2>{$detail.title}</h2><div class="clr"></div>
-          <p>{$detail.content}</p>
+          <p><img src="{$detail.pic}" width="613" height="154" ><br>{$detail.content}</p>
           <p>  <span>&nbsp;&bull;&nbsp;</span>  {$detail.addtime|date_format:"%Y-%m-%d"}  <span>&nbsp;&bull;&nbsp;</span> </p>
         </div>
       </div>

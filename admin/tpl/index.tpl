@@ -238,8 +238,8 @@ float:left;
             </div>
             <div class="div3">
                 <ul>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?act=edit_aboutus');">关于我们</a></li>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?act=edit_contactus');">联系我们</a></li>
+                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=aboutus');">关于我们</a></li>
+                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=contactus');">联系我们</a></li>
                     
                 </ul>
             </div>
