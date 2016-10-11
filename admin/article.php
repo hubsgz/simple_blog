@@ -102,6 +102,10 @@ if ($act == 'add') { 	//添加文章
 	$nextpage = $page + 1;
 	$nextpage = $nextpage>$pagecount? $pagecount : $nextpage;
 	
+	foreach ($list as $k=>$v) {
+		$list[$k]['content'] = trim(strip_tags($v['content']));
+	}
+	
 	$smarty->assign("list", $list);
 	$smarty->assign("pagecount", $pagecount);
 	$smarty->assign("prepage", $prepage);

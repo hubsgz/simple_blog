@@ -11,5 +11,6 @@ $id = $com->getIntParam('id');
 $sql = "select * from article where id=$id ";
 $detail = $db->getRow($sql);
 
+$smarty->assign("nav_position", 'detail');
 $smarty->assign("detail", $detail);
 $smarty->display('detail.tpl');

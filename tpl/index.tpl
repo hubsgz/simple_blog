@@ -8,7 +8,7 @@
         <div class="article">
           <h2>{$item.title}</h2><div class="clr"></div>
           <img src="{$item.pic}" width="613" height="154" alt="image" />
-          <p>{$item.content|truncate:50:"..."}</p>
+          <p>{$item.content|truncate:250:"..."}</p>
           <p class="spec"><a href="detail.php?id={$item.id}" class="rm">更多</a> &nbsp;|&nbsp; <span class="date">{$item.addtime|date_format:"%Y-%m-%d"}</span></p>
         </div>
         {foreachelse}

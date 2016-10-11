@@ -37,6 +37,10 @@ $prepage = $prepage<1? 1 : $prepage;
 $nextpage = $page + 1;
 $nextpage = $nextpage>$pagecount? $pagecount : $nextpage;
 
+foreach ($list as $k=>$v) {
+	$list[$k]['content'] = trim(strip_tags($v['content']));
+}
+
 
 $smarty->assign("list", $list);
 $smarty->assign("pagecount", $pagecount);

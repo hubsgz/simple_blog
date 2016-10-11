@@ -46,7 +46,7 @@
         </select>
     <button type="submit" class="btn btn-primary">查询</button>
 </form>
-<table class="table table-bordered table-hover definewidth m10">
+    <table class="table table-bordered table-hover definewidth m10">
     <thead>
     <tr>
         <th>标题</th>
@@ -68,6 +68,22 @@
         </tr>
         {/foreach}
    </table>
+    {if $list}
+    <div class="pagebar article">
+      {if $page neq 1}
+      <span class="item"><a href="article.php?p=1&c={$category}">首页</a></span>
+      {/if}
+      {if $prepage neq $page}
+      <span class="item"><a href="article.php?p={$prepage}&c={$category}">上一页</a></span>
+      {/if}
+      {if $nextpage neq $page}
+      <span class="item"><a href="article.php?p={$nextpage}&c={$category}">下一页</a></span>
+      {/if}
+      {if $pagecount neq $page}
+      <span class="item"><a href="article.php?p={$pagecount}&c={$category}">尾页</a></span>
+      {/if}
+    </div>
+    {/if}
 </body>
 </html>
 <script src="js/jquery.min.js"></script>
