@@ -228,8 +228,8 @@ float:left;
                 文章管理
             </div>
             <div class="div3">
-                <li><a class="a" href="javascript:void(0);" onClick="openurl('article.php?act=add');">添加文章</a></li>
-                <li><a class="a" href="javascript:void(0);" onClick="openurl('article.php?act=list');">文章列表</a></li>
+                <li><a class="a" href="article.php?act=add" target="rightFrame">添加文章</a></li>
+                <li><a class="a" href="article.php?act=list" target="rightFrame" onClick="openurl('article.php?act=list');">文章列表</a></li>
                
             </div>
             <div class="div2">
@@ -238,8 +238,8 @@ float:left;
             </div>
             <div class="div3">
                 <ul>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=aboutus');">关于我们</a></li>
-                    <li><a class="a" href="javascript:void(0);" onClick="openurl('pages.php?pagekey=contactus');">联系我们</a></li>
+                    <li><a class="a" href="pages.php?pagekey=aboutus" target="rightFrame" >关于我们</a></li>
+                    <li><a class="a" href="pages.php?pagekey=contactus" target="rightFrame" >联系我们</a></li>
                     
                 </ul>
             </div>

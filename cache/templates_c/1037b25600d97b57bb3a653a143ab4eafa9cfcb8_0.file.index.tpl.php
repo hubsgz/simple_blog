@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2016-10-10 09:09:48
+/* Smarty version 3.1.30, created on 2016-10-10 10:19:41
   from "/Volumes/macdata/data/www/simple_blog/tpl/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_57fb5adc65b5a0_75121305',
+  'unifunc' => 'content_57fb6b3db58059_97891960',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1037b25600d97b57bb3a653a143ab4eafa9cfcb8' => 
     array (
       0 => '/Volumes/macdata/data/www/simple_blog/tpl/index.tpl',
-      1 => 1476090586,
+      1 => 1476094695,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_57fb5adc65b5a0_75121305 (Smarty_Internal_Template $_smarty_tpl) {
+function content_57fb6b3db58059_97891960 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_truncate')) require_once '/Volumes/macdata/data/www/simple_blog/inc/smarty/libs/plugins/modifier.truncate.php';
 if (!is_callable('smarty_modifier_date_format')) require_once '/Volumes/macdata/data/www/simple_blog/inc/smarty/libs/plugins/modifier.date_format.php';
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>'foo'), 0, false);
@@ -41,7 +41,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['item']->value) {
         <div class="article">
           <h2><?php echo $_smarty_tpl->tpl_vars['item']->value['title'];?>
 </h2><div class="clr"></div>
-          <img src="<?php echo $_smarty_tpl->tpl_vars['item']->value['img'];?>
+          <img src="<?php echo $_smarty_tpl->tpl_vars['item']->value['pic'];?>
 " width="613" height="154" alt="image" />
           <p><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['item']->value['content'],50,"...");?>
 </p>
