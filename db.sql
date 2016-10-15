@@ -1,5 +1,3 @@
-create database simple_blog;
-use simple_blog;
 
 -- MySQL dump 10.13  Distrib 5.6.22, for osx10.8 (x86_64)
 --
